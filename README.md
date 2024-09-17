@@ -106,7 +106,7 @@ $router->enableDebug();
 |   |-- Router.php
 |-- cache/
 |-- composer.json
-|-- autoload.php
+|-- 
 |-- test.php
 |-- README.md
 ```
@@ -118,19 +118,3 @@ Contribuțiile sunt binevenite! Te rog să deschizi un issue sau un pull request
 ## Licență
 
 Acest proiect este licențiat sub licența MIT. Vezi fișierul LICENSE pentru mai multe detalii.
-
-```
-
-### Explicații
-
-- **Insigne (badges)**: Acestea indică versiunea minimă de PHP necesară și licența proiectului.
-- **Caracteristici**: O listă cu principalele funcționalități oferite de librărie.
-- **Instalare**: Instrucțiuni pentru configurarea proiectului folosind Composer.
-- **Utilizare**: Exemple de cod pentru definirea rutelor, aplicarea middleware-urilor, gestionarea grupurilor de rute, generarea URL-urilor și activarea debugging-ului.
-- **Structura Directorului**: O scurtă prezentare a structurii fișierelor din proiect.
-- **Contribuții**: Informații despre cum se poate contribui la dezvoltarea proiectului.
-- **Licență**: Detalii despre licența proiectului.
-
-Acest `README.md` oferă o imagine clară și concisă a modului în care poate fi utilizată librăria de rutare, fiind prietenos pentru utilizatori și contribuitori.
-
-```
