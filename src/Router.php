@@ -10,7 +10,7 @@ class Router
     protected array $namedRoutes = [];
     protected string $routePrefix = '';
     protected array $middlewareGroups = [];
-    protected book $debug = false;
+    protected bool $debug = false;
 
     public function __construct()
     {
