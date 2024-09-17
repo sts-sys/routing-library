@@ -67,13 +67,50 @@ $router->middleware('AuthMiddleware')
 
 ### 3. Grupuri de Rute cu Prefix
 
+Organizează rutele sub un prefix comun, de exemplu pentru un panou de administrare.
+
+```php
+$router->group('/admin', function ($router) {
+    $router->middleware('AuthMiddleware')
+           ->get('/dashboard', 'AdminController@dashboard')
+           ->name('admin.dashboard');
+});
+```
+
 ### 4. Generare Automată de URL-uri
+
+Puteți genera URL-uri dinamice pe baza numelui rutei.
+
+```php
+$url = $router->routeUrl('admin.dashboard');
+echo $url; // Output: /admin/dashboard
+```
 
 ### 5. Activarea Debugging-ului
 
+Activează modul de debugging pentru a loga mesajele de eroare.
+
+```php
+$router->enableDebug();
+```
+
 ## Structura Directorului
 
+```lua
+/sts-routing-library
+|-- src/
+|   |-- TrieNode.php
+|   |-- Router.php
+|-- cache/
+|-- composer.json
+|-- autoload.php
+|-- test.php
+|-- README.md
+```
+
 ## Contribuții
+
+Contribuțiile sunt binevenite! Te rog să deschizi un issue sau un pull request pentru orice îmbunătățiri sau probleme.
 
 ## Licență
 
