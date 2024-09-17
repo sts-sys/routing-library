@@ -1,6 +1,6 @@
 # STS Routing Library
 
-![PHP](https://img.shields.io/badge/PHP-7.4%2B-blue.svg)
+![PHP](https://img.shields.io/badge/PHP-8.2%2B-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
 STS Routing Library este o librărie PHP simplă și flexibilă pentru gestionarea rutelor HTTP într-o aplicație web. Aceasta oferă funcționalități avansate precum suport pentru middleware, grupuri de rute, rute denumite, generare automată de URL-uri și parametri opționali.
@@ -20,6 +20,9 @@ STS Routing Library este o librărie PHP simplă și flexibilă pentru gestionar
 
 1. Clonează acest repository sau descarcă arhiva ZIP.
 2. Instalează dependențele folosind Composer:
+    ```bach
+    "sts/routing-library": "^v1.0",
+    ```
 
     ```bash
     composer install
